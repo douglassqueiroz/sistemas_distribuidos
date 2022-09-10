@@ -7,13 +7,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Gretting {
-   private String greeting;
-   
-  public Double number1;
-  public Double number2;
+public class Gretting { 
+  public int number1;
+  public int number2;
 
-  public Double getGretting(){
-   return number1+number2;
+  public int getGretting(){
+   return number1 + number2;
   }
 }
+
